@@ -2,6 +2,11 @@ name = "d1-tutorial"
 main = "src/index.ts"
 compatibility_date = "2023-09-18"
 
+[[d1_databases]]
+binding = "SHORT_URLS_DB"
+database_name = "Tutorial"
+database_id = "eed0ece0-ea7e-43a5-91db-a3ad299dc9fa"
+
 # Variable bindings. These are arbitrary, plaintext strings (similar to environment variables)
 # Note: Use secrets to store sensitive data.
 # Docs: https://developers.cloudflare.com/workers/platform/environment-variables
