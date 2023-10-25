@@ -1,3 +1,3 @@
-DROP TABLE IF EXISTS urls;
-CREATE TABLE IF NOT EXISTS urls (short_path TEXT, original_url TEXT);
-INSERT INTO urls (short_path, original_url) VALUES ('x.com', 'example.com');
+DROP TABLE IF EXISTS Customers;
+CREATE TABLE IF NOT EXISTS Customers (CustomerId INTEGER PRIMARY KEY, CompanyName TEXT, ContactName TEXT);
+INSERT INTO Customers (CustomerID, CompanyName, ContactName) VALUES (1, 'Alfreds Futterkiste', 'Maria Anders'), (4, 'Around the Horn', 'Thomas Hardy'), (11, 'Bs Beverages', 'Victoria Ashworth'), (13, 'Bs Beverages', 'Random Name');
